@@ -279,3 +279,68 @@ button.normal{
     background-color: silver;
     color: white;
 } 
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* text-align: center; */
+    background-image: url("/img/banner/5.webp");
+    min-width: 50%;
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+
+#sm-banner h4{
+    color:#d79436;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner button:hover {
+    background-color: silver;
+    color: white;
+}
+
+#sm-banner .banner-box2{
+    background-image: url("/img/banner/3.webp");
+    align-items: flex-start;
+}
+
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: center; */
+    background-image: url("/img/banner/9.webp");
+    min-width: 30%;
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2{
+    color: #d79436;
+    font-weight:900;
+    font-size:22px;
+}
+
+#banner3 h3{
+    color: #d79436;
+    font-weight: 900;
+    font-size: 15px;
+}
