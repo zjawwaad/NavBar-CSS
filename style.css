@@ -294,7 +294,7 @@ button.normal{
     /* text-align: center; */
     background-image: url("/img/banner/5.webp");
     min-width: 50%;
-    height:50vh;
+    height:30vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -313,8 +313,13 @@ button.normal{
 }
 
 #sm-banner .banner-box2{
-    background-image: url("/img/banner/3.webp");
+    background-image: url("/img/banner/3.tiff");
     align-items: flex-start;
+    min-width: 50%;
+    height:30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
 }
 
 
@@ -333,6 +338,15 @@ button.normal{
     margin-bottom: 20px;
 }
 
+#banner3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+
 #banner3 h2{
     color: #d79436;
     font-weight:900;
@@ -343,4 +357,26 @@ button.normal{
     color: #d79436;
     font-weight: 900;
     font-size: 15px;
+}
+
+
+#banner3 .banner-box2{
+    background-image: url("/img/banner/11.jpg");
+
+}
+
+#banner3 .banner-box3{
+    background-image: url("/img/banner/10.jpg");
+
+}
+
+
+
+#newsletter{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #25bbcd;
+    background-position: 20% 30%;
 }
