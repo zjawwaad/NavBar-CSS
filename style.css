@@ -306,7 +306,8 @@ button.normal{
     background-image: url("/img/banner/5.webp");
     min-width: 50%;
     height:30vh;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 30px;
 }
@@ -328,7 +329,8 @@ button.normal{
     align-items: flex-start;
     min-width: 50%;
     height:30vh;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 30px;
 }
@@ -590,6 +592,11 @@ footer a:hover{
 }
 
 
+/* About Page */
+#page-header .about-header{
+    background-image: url("./img/banner/6");
+}
+
 
 
 
@@ -771,6 +778,19 @@ footer a:hover{
     #prodetails .single-pro-image{
         width:100%;
         margin-right:0px;
+    }
+
+    #about-head{
+        flex-direction: column;
+    }
+
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div{
+        padding-left: 0px;
     }
 
 }
